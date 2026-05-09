@@ -1,8 +1,10 @@
 # Skills Starter
 
-Minimal starter repo for keeping all your reusable agent skills in one canonical place on disk, then symlinking them into Claude, Codex, OpenClaw, or any other agent-specific skills folder.
+How to set up your Agent Skills correctly. One place, multiple agents.
 
-The point of this repo is simple:
+This repo is a minimal starter for keeping all your reusable agent skills in one canonical place on disk, then symlinking them into Claude, Codex, OpenClaw, or any other agent-specific skills folder.
+
+The model is simple:
 
 - keep your skills in one repo on disk
 - treat that repo as the canonical source of truth
@@ -32,16 +34,15 @@ skills-starter/
 
 ## Setup
 
-1. Create your own public repo from this one, or clone it and push it to your GitHub account.
+1. Create your own repo from this one, or clone it and push it to your GitHub account.
 2. Install the starter skill:
 
 ```sh
 npx skills add https://github.com/matthiasroder/skills-starter/tree/main/promote-skill
 ```
 
-3. When you are ready, create your own public repo from this one or copy the structure into a repo under your account.
-
-4. Keep that repo somewhere stable on disk, and symlink skills from it into the agent folders you use.
+3. Keep that repo somewhere stable on disk.
+4. Symlink the skills you want from that repo into the agent folders you use.
 
 ## Use
 
