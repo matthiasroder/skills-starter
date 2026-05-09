@@ -27,11 +27,13 @@ skills-starter/
 ## Setup
 
 1. Create your own public repo from this one, or clone it and push it to your GitHub account.
-2. Install the skill from your repo:
+2. Install the starter skill:
 
 ```sh
-npx skills add https://github.com/<your-user>/<your-repo>/tree/main/promote-skill
+npx skills add https://github.com/matthiasroder/skills-starter/tree/main/promote-skill
 ```
+
+3. When you are ready, create your own public repo from this one or copy the structure into a repo under your account.
 
 ## Use
 
